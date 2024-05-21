@@ -14,6 +14,33 @@
   --shedule: #e1ae4a;
 }
 
+body {
+  /* padding-left: 14px; */
+  /* padding-right: 14px; */
+  /* max-width: 1140px; */
+  /* margin: 0 auto; */
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+* {
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   overflow: hidden;
   columns: var(--black);
@@ -28,4 +55,15 @@
   border-radius: 50%;
   background: #a6ddf0;
   filter: blur(72px);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  transition: all 100ms ease-out;
 }
